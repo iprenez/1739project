@@ -1,0 +1,54 @@
+/* your styles go here */
+
+
+
+.img-wrapper {
+	position:relative;
+    width: 100%;
+    height:auto;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#button1 {
+	float:right;
+    color: white;
+    background-color:#99ff33;
+    border-color:#99ff33;
+}
+
+#button2 {
+	float:right;
+    color:white;
+    background-color:#da0554; 
+    border-color:#da0554; 
+}
+
+#button1:hover{
+  background-color:#5FB600; 
+  border-color:#5FB600; 
+}
+#button2:hover{
+   background-color:#a80441;
+   border-color: #a80441;
+}
+a{
+    color:#da0554; 
+}
+/*.container .btn:hover {
+    background-color: black;
+}*/
